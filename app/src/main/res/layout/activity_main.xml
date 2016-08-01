@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alab.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BBDEFB"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/skp_btn_1"
+                style="@style/speaker"
+                android:onClick="tw_0"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                style="@style/text"
+                android:layout_weight="5"
+                android:text="早安"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/speaker"
+                android:onClick="tw_1"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                style="@style/text"
+                android:id="@+id/korean"
+                android:layout_weight="5"
+                android:text="좋은아침"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/speaker"
+                android:onClick="Cz"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                style="@style/text"
+                android:layout_weight="5"
+                android:text="좋은아침"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/speaker"
+                android:onClick="Cz"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                style="@style/text"
+                android:layout_weight="5"
+                android:text="Good  evening."
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/speaker"
+                android:onClick="Cz"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                style="@style/text"
+                android:layout_weight="5"
+                android:text="Good  evening."
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
