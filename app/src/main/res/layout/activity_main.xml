@@ -19,16 +19,16 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/skp_btn_1"
+                android:id="@+id/btn_cn_0"
                 style="@style/speaker"
-                android:onClick="tw_0"
+                android:onClick="playSound"
                 android:layout_weight="1"
                 />
 
             <TextView
                 style="@style/text"
                 android:layout_weight="5"
-                android:text="早安"
+                android:text="早上好"
                 />
 
         </LinearLayout>
@@ -40,8 +40,9 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:id="@+id/btn_k_0"
                 style="@style/speaker"
-                android:onClick="tw_1"
+                android:onClick="playSound"
                 android:layout_weight="1"
                 />
 
@@ -59,15 +60,16 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:id="@+id/btn_hk_0"
                 style="@style/speaker"
-                android:onClick="Cz"
+                android:onClick="playSound"
                 android:layout_weight="1"
                 />
 
             <TextView
                 style="@style/text"
                 android:layout_weight="5"
-                android:text="좋은아침"
+                android:text="早晨"
                 />
 
         </LinearLayout>
@@ -78,15 +80,16 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:id="@+id/btn_tw_0"
                 style="@style/speaker"
-                android:onClick="Cz"
+                android:onClick="playSound"
                 android:layout_weight="1"
                 />
 
             <TextView
                 style="@style/text"
                 android:layout_weight="5"
-                android:text="Good  evening."
+                android:text="熬早"
                 />
 
         </LinearLayout>
@@ -97,15 +100,16 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:id="@+id/btn_cz_0"
                 style="@style/speaker"
-                android:onClick="Cz"
+                android:onClick="playSound"
                 android:layout_weight="1"
                 />
 
             <TextView
                 style="@style/text"
                 android:layout_weight="5"
-                android:text="Good  evening."
+                android:text="Dobré ráno."
                 />
 
         </LinearLayout>

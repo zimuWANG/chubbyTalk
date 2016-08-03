@@ -13,30 +13,14 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
-    private MediaPlayer mp;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void tw_0(View v) {
-        stopPlaying();
-        mp = MediaPlayer.create(MainActivity.this, R.raw.tw_0);
-        mp.start();
-    }
 
-    public void tw_1(View v) {
-        stopPlaying();
-        mp = MediaPlayer.create(MainActivity.this, R.raw.tw_1);
-        mp.start();
-    }
-
-    private void stopPlaying(){
-        if (mp != null) {
-            mp.stop();
-            mp.release();
-            mp = null;
-        }
+    public void playSound(View v) {
+        int id = v.getId();
+        SoundPlayer.playSound(id, this);
     }
 }
